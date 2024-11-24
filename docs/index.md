@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Добро пожаловать в MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Вот полная документация: [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `mkdocs new [dir-name]` - Создает новый проект.
+* `mkdocs serve` - Запускает сервер для просмотра изменений в режиме реального времени.
+* `mkdocs build` - Собирает сайт в формате HTML.
+* `mkdocs -h` - Выводит справку в консоль.
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
+    mkdocs.yml    # Файл конфигурации.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md  # Домашняя страница.
+        ...       # Другие markdown-файлы, изображения и другие файлы.
