@@ -33,11 +33,11 @@ jobs:
 
       - name: Validate and Minify CSS
         run: |
-          postcss site/assets/css/styles.css --use autoprefixer cssnano -o site/assets/css/styles.min.css
+          postcss css/base.css --use autoprefixer cssnano -o assets/css/base.min.css
 
       - name: Validate HTML
         run: |
-          html-validator --file=site/index.html --verbose
+          html-validator --file=index.html --verbose
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
